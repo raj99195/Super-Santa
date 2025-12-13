@@ -82,7 +82,7 @@
                       fullscreenButton.style.display = "";
                     }
                     fullscreenButton.onclick = () => {
-                      document.makeFullscreen('unity-container');
+                      unityInstance.SetFullscreen(1);
                     };
                   }
                 }).catch((message) => {
